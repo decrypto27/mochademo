@@ -1,0 +1,32 @@
+{
+    "success": {
+        "definitions": {},
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "id": "http://example.com/example.json",
+        "additionalProperties": false,
+        "required": [
+            "message"
+        ],
+        "properties": {
+            "message": {
+                "type": "string"
+            }
+        }
+    },
+    "failure": {
+        "definitions": {},
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "id": "http://example.com/example.json",
+        "additionalProperties": false,
+        "required": [
+            "error"
+        ],
+        "properties": {
+            "error": {
+                "type": "string"
+            }
+        }
+    }
+}

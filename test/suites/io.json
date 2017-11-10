@@ -1,0 +1,32 @@
+{
+    "t1": {
+        "input": {},
+        "output": {
+            "error": "Give me something to play"
+        }
+    },
+    "t2": {
+        "input": {
+            "day": "today"
+        },
+        "output": {
+            "message": "foggy"
+        }
+    },
+    "t3": {
+        "input": {
+            "day": "yesterday"
+        },
+        "output": {
+            "message": "Smoggy and Poisonous"
+        }
+    },
+    "t4": {
+        "input": {
+            "day": "tomorrow"
+        },
+        "output": {
+            "message": "Lazy"
+        }
+    }
+}
